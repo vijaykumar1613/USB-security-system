@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project Information</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Montserrat', 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027 0%, #232526 100%);
+      margin: 0; padding: 0; color: #e0e8ff; min-height: 100vh;
+    }
+    .dev-blink { transition: color 0.1s; }
+    .dev-blink:hover { animation: blink 0.25s 1; }
+    @keyframes blink { 0%{color:#00f2fe;} 50%{color:#fff;} 100%{color:#00f2fe;} }
+    .hero {
+      width: 100vw; min-height: 200px;
+      background: linear-gradient(120deg, #232526 0%, #0f2027 100%);
+      display: flex; align-items: center; justify-content: center; flex-direction: column;
+      color: #00f2fe; box-shadow: 0 8px 32px #00f2fe33; border-radius: 0 0 60px 60px;
+    }
+    .hero .fa-shield-halved { font-size: 3.5rem; color: #00f2fe; margin-bottom: 10px; }
+    .hero h1 { font-family: 'Orbitron', 'Montserrat', sans-serif; font-size: 2rem; margin: 0 0 10px 0; }
+    .hero p { font-size: 1.1rem; margin: 0 0 10px 0; color: #e6f0ff; }
+    .container {
+      max-width: 950px; margin: -40px auto 40px auto; background: #182236f9;
+      padding: 30px 18px 20px 18px; border-radius: 18px; box-shadow: 0 4px 20px #00f2fe33;
+      border: 2px solid #00f2fe;
+    }
+    h2 { color: #00f2fe; margin-top: 32px; margin-bottom: 10px; font-size: 1.2rem; font-family: 'Orbitron', 'Montserrat', sans-serif; }
+    table {
+      width: 100%; border-collapse: collapse; margin: 18px 0 30px 0; background: #22364af9;
+      border-radius: 10px; box-shadow: 0 2px 12px #00f2fe22; border: 1.5px solid #00f2fe;
+    }
+    th, td { padding: 12px 14px; border-bottom: 1px solid #223344; text-align: left; font-size: 1rem; }
+    th { background: linear-gradient(90deg, #00f2fe 0%, #38f9d7 100%); color: #232526; font-weight: 700; border: none; font-family: 'Orbitron', 'Montserrat', sans-serif; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #00f2fe22; }
+    .highlight {
+      background: linear-gradient(90deg, #232526 0%, #00f2fe 100%);
+      padding: 16px 18px; border-left: 6px solid #38f9d7; margin-bottom: 18px; font-size: 1rem;
+      border-radius: 8px; box-shadow: 0 2px 12px #00f2fe22; display: flex; align-items: center; gap: 12px;
+    }
+    .highlight .fa-user-shield { color: #00f2fe; font-size: 1.5rem; }
+    .footer { margin-top: 24px; text-align: center; font-size: 15px; color: #00f2fe; font-family: 'Orbitron', 'Montserrat', sans-serif; }
+    @media (max-width: 700px) {
+      .container { padding: 8px 2vw; margin: -20px 0 10px 0; }
+      .hero { min-height: 100px; }
+      h1, .hero h1 { font-size: 1.1rem; }
+      th, td { font-size: 0.9rem; padding: 7px 4px; }
+      .highlight { font-size: 0.9rem; padding: 8px 4px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="floating-shape shape1"></div>
+  <div class="floating-shape shape2"></div>
+  <div class="floating-shape shape3"></div>
+  <div class="hero">
+    <i class="fa-solid fa-shield-halved"></i>
+    <h1>USB Physical Security Project</h1>
+    <p>Cyber Security Internship &mdash; Supraja Technologies</p>
+  </div>
+  <div class="container">
+    <div class="highlight">
+      <i class="fa-solid fa-user-shield"></i>
+      This project was developed by <strong>VijayKumar,Lahari,Samarendra,Hemalatha,Farhana,Veerandra</strong> as part of a <strong>Cyber Security Internship</strong>.<br>
+      <span style="color:#003366;">This project is designed to <strong>Secure Organizations in the Real World from Cyber Frauds performed by Hackers</strong>.</span>
+    </div>
+    <h2><i class="fa-solid fa-diagram-project"></i> Project Details</h2>
+    <table>
+      <tr><th><i class="fa-solid fa-file-signature"></i> Project Name</th><td>USB Physical Security</td></tr>
+      <tr><th><i class="fa-solid fa-clipboard-list"></i> Description</th><td>Implementing Physical Security Policy on USB Ports in Organization for Physical Security</td></tr>
+      <tr><th><i class="fa-solid fa-calendar-days"></i> Start Date</th><td>21-May-2025</td></tr>
+      <tr><th><i class="fa-solid fa-calendar-check"></i> End Date</th><td>09-August-2025</td></tr>
+      <tr><th><i class="fa-solid fa-circle-check"></i> Status</th><td><strong style="color: green;">Completed</strong></td></tr>
+    </table>
+    <h2><i class="fa-solid fa-users"></i> Developer Details</h2>
+    <table>
+      <tr><th><i class="fa-solid fa-user"></i> Name</th><th><i class="fa-solid fa-id-badge"></i> Employee ID</th><th><i class="fa-solid fa-envelope"></i> Email</th></tr>
+      <tr>
+        <td class="dev-blink">Ch VijayKumar</td>
+        <td class="dev-blink">ST#IS#7665</td>
+        <td class="dev-blink">vijaychinthapatla1@gmail.com</td>
+      </tr>
+      <tr>
+        <td class="dev-blink">Farhana Shaik</td>
+        <td class="dev-blink">ST#IS#7667</td>
+        <td class="dev-blink">farhanashaik0630@gmail.com</td>
+      </tr>
+      <tr>
+        <td class="dev-blink">M Hemalatha</td>
+        <td class="dev-blink">ST#IS#7669</td>
+        <td class="dev-blink">hemalathamullamuri1743@gmail.com</td>
+      </tr>
+      <tr>
+        <td class="dev-blink">k Veerandra Nayudu</td>
+        <td class="dev-blink">ST#IS#7670</td>
+        <td class="dev-blink">veerandraveerandra168@gmail.com</td>
+      </tr>
+      <tr>
+        <td class="dev-blink">K Lahari</td>
+        <td class="dev-blink">ST#IS#7671</td>
+        <td class="dev-blink">laharichowdary2005@gmail.com</td>
+      </tr>
+      <tr>
+        <td class="dev-blink">M samarendra Nayudu</td>
+        <td class="dev-blink">ST#IS#7676</td>
+        <td class="dev-blink">msamarendranayudu@gmail.com</td>
+      </tr>
+      
+    </table>
+    <h2><i class="fa-solid fa-building"></i> Company Details</h2>
+    <table>
+      <tr><th><i class="fa-solid fa-building"></i> Company Name</th><td>Supraja Technologies</td></tr>
+      <tr><th><i class="fa-solid fa-envelope"></i> Email</th><td>contact@suprajatechnologies.com</td></tr>
+    </table>
+    <div class="footer">&copy; 2025 Supraja Technologies | Cyber Security Internship Project</div>
+  </div>
+</body>
+</html>

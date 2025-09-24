@@ -1,0 +1,21 @@
+[2025-07-27 14:27:53] Intrusion recorded: intrusions/intrusion_20250727_142748.avi
+[2025-07-27 14:28:36] Intrusion recorded: intrusions/intrusion_20250727_142830.avi
+[2025-07-27 14:29:29] Intrusion recorded: intrusions/intrusion_20250727_142924.avi
+[2025-07-27 14:32:00] Intrusion recorded: intrusions/intrusion_20250727_143155.avi
+[2025-07-27 14:32:19] Intrusion recorded: intrusions/intrusion_20250727_143213.avi
+[2025-07-27 14:35:18] Intrusion recorded: intrusions/intrusion_20250727_143513.avi
+[2025-07-27 14:36:55] Intrusion recorded: intrusions/intrusion_20250727_143650.avi
+[2025-07-27 14:38:11] Intrusion recorded: intrusions/intrusion_20250727_143805.avi
+[2025-07-27 14:41:26] Intrusion recorded: intrusions/intrusion_20250727_144121.avi
+[2025-07-27 14:44:02] USB ports enabled
+[2025-07-27 14:44:12] USB ports disabled
+[2025-07-27 14:47:46] USB ports enabled
+[2025-07-27 18:23:51] USB ports disabled
+[2025-07-27 20:39:03] USB ports enabled
+[2025-07-27 20:52:46] USB ports disabled
+[2025-07-27 21:24:33] USB ports enabled
+[2025-07-27 21:24:40] Admin performed USB enabled
+[2025-07-27 21:24:46] USB ports disabled
+[2025-07-27 21:24:51] Admin performed USB disabled
+[2025-07-27 21:25:25] Intrusion recorded: intrusions/intrusion_20250727_212520.avi
+[2025-07-27 21:51:29] Intrusion recorded: intrusions/intrusion_20250727_215123.avi
